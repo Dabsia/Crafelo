@@ -11,25 +11,28 @@ body{
     background-color: #012D28;
     overflow-x: hidden;
     font-family: Poppins, sans-serif;
-    padding: 5rem 10rem;
+    padding: 5rem 9rem;
 }
  
 .hero__section{
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 header{
     margin-bottom: 14.7rem;
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
 ul{
     list-style-type: none;
     display: flex;
+    
 }
 li{
-    margin-right: 4rem;
+    margin-left: 4rem;
 }
 a{
     font-style: normal;
