@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #012D28;
+    overflow-x: hidden;
+    font-family: Poppins, sans-serif;
+    padding: 5rem 10rem;
+}
+ 
+.hero__section{
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    margin-bottom: 14.7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+}
+li{
+    margin-right: 4rem;
+}
+a{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+.logo{
+    display: flex;
+}
+
+h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4.2rem;
+    line-height: 6.2rem;
+    width: 59.8rem;
+    color: #FFFFFF;
+    margin-bottom: 5.3rem;
+}
+.sameImage{
+    display: block;
+    margin-bottom: .7rem;
+}
+.bottomImage{
+    margin-top: .7rem;
+    margin-right: .7rem;
+}
+.small__image{
+    display: flex;
+}
+.right__container{
+    display: flex;
+}
+span{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4.2rem;
+    line-height: 6.2rem;
+    color: #FECD00;
+}
+.left__container{
+    padding-top: 4.5rem;
+}
+.desc{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    color: rgba(255, 255, 255, 0.8);
+    width:58.6rem;
+    margin-bottom: 4.5rem;
+}
+.waitlist{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: rgba(255, 150, 91, 0.8);
+    margin-bottom: 2.2rem;
+    
+}
+input{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #A2A2A2;
+    width: 34rem;
+    height: 6rem;
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+    padding-left: 2rem;
+    margin-right: 1.3rem;
+    margin-bottom: 13.5rem;
+}
+.CTA{
+    width: 15.3rem;
+    height: 6rem;
+    background: #FECD00;
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    cursor: pointer;
+    color: #012D28;
+}
+h5{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    color: #FFFFFF;
+    margin-bottom: 3.6rem;
+}
+.sponsors{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+/* MEDIA QUERIES */
+@media screen and (max-width:900px) {
+    body{
+        padding: 5rem rem;
+        overflow-x: hidden;
+    }
+    .hero__section{
+        flex-direction: column;
+    }
+    .right__container{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:500px) {
+    html{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    body{
+        padding: 2rem 1rem;
+        width: 100%;
+        
+    }
+    .hero__section{
+        flex-wrap: wrap;
+    }
+    .sponsors{
+        flex-wrap: wrap;
+    }
+    nav{
+        display: none;
+    }
+    h1, span{
+       
+        font-size: 1.95rem;
+        line-height: 3rem;
+        width: 85%;
+        margin-bottom: 3rem;
+    }
+    .left__container{
+        padding-top: 2.5rem;
+    }
+    header{
+        margin-bottom: 1.5rem;
+    }
+    /* Text Description */
+    .desc{
+
+        font-size: 1.3rem;
+        line-height: 2.2rem;
+        width:100%;
+        margin-bottom: 2.5rem;
+    }
+    .waitlist{
+       
+        font-size: 1.4rem;
+        width:100%;
+        line-height: 2rem;
+        margin-bottom: 2.2rem;
+        
+    }
+    input{
+        
+        font-size: 1.3rem;
+        width: 100%;
+        height: 8vh;
+        padding-left: 1rem;
+        margin-right: 1.3rem;
+        margin-bottom: 1rem;
+    }
+    .CTA{
+        display: block;
+        width: 100%;
+        font-weight: 600;
+        margin-bottom: 3rem;
+        height: 8vh;
+    }
+    .big__photo{
+        width: 100%;
+    }
+    .imageBox__two{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    .sameImage{
+        margin: 2%;
+        width: 47%;
+    }
+    
+}
